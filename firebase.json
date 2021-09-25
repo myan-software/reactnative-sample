@@ -1,0 +1,7 @@
+{
+  "react-native": {
+    "admob_android_app_id": "ca-app-pub-6679913875801058~8033840444",
+    "admob_ios_app_id": "ca-app-pub-6679913875801058~6912330460",
+    "message_ios_auto_register_for_remote_messages": true
+  }
+}

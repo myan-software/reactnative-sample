@@ -1,0 +1,29 @@
+{
+  // "presets": ["react-native"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".es",
+          ".es6",
+          ".mjs",
+          ".jpg",
+          ".png"
+        ],
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "test": "./test",
+          "underscore": "lodash",
+          "src": "./src",
+          "assets": "./assets",
+          "@vn.starlingTech": "./vn.starlingTech"
+        }
+      }
+    ]
+  ]
+}
